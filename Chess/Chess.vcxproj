@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bishop.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="King.h" />
+    <ClInclude Include="Knight.h" />
+    <ClInclude Include="Pawn.h" />
+    <ClInclude Include="Piece.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Queen.h" />
+    <ClInclude Include="Rook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bishop.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="King.cpp" />
+    <ClCompile Include="Knight.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pawn.cpp" />
+    <ClCompile Include="Piece.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Queen.cpp" />
+    <ClCompile Include="Rook.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -110,7 +133,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\SFML\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
